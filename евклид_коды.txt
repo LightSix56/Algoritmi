@@ -1,5 +1,4 @@
-* **Python:**
-
+Python:
 def gcd(a, b):
     if b == 0:
         return a
@@ -7,8 +6,7 @@ def gcd(a, b):
 
 print(gcd(48, 18))
 
-* **Java:**
-
+Java:
 public class GCD {
     public static int gcd(int a, int b) {
         if (b == 0)
@@ -21,8 +19,7 @@ public class GCD {
     }
 }
 
-* **C++:**
-
+C++:
 #include <iostream>
 using namespace std;
 
