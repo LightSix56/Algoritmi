@@ -9,5 +9,6 @@ def greedy_schedule(num_machines, jobs):
     makespan = max(machine_loads)
     return assignment, makespan
 
+#пример ввода
 print(greedy_schedule(3, [5, 7, 3, 8, 2, 6, 4, 9, 1, 5])
-#выводит пример работы
+#вывод ([0, 1, 2, 2, 0, 0, 1, 1, 2, 2], 20)
